@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Frontend Examination Ep1 - Ecommage</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header hide-on-mobile">
+            <div class="header-logo">
+                <img src="./images/logo.jpg" alt="logo">
+            </div>
+            <nav class="header-nav-1">
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+            </nav>
+            <nav class="header-nav-2">
+                <a href="#">Login</a>
+                <a href="#" class="active">Start now</a>
+            </nav>
+        </div>
+        <div class="header mobile hide-on-mobile-tablet hide-on-tablet">
+            <div id="mobile-nav">
+                <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li id="login"><a href="#">Login</a></li>
+                        <li id="signup"><a href="#">Start now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-logo">
+                <img src="./images/logo.jpg" alt="logo">
+            </div>
+        </div>
+        <div class="banner ">
+            <div class="banner-img">
+                <img src="./images/img_1.jpg" alt="img-banner">
+            </div>
+            <div class="banner-description right-to-left show-on-scroll">
+                <h1>Simplify your online shipping for free this month!</h1>
+                <p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.<br>At nam minimum panderum. Est audiam animal molestiae te.</p>
+            </div>
+
+            <div class="banner-button zoom show-on-scroll">
+                <a href="#" class="active">Start free trial</a>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+        <div class="services width-height">
+            <div class="services-content right-to-left-2 show-on-scroll">
+                <h1>Grow your business with better Shipping</h1>
+                <p>We help the world's leading organizations their shipping</p>
+            </div>
+            <div class="services-box">
+                <div class="services-item zoom show-on-scroll opacity">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <span>Shipping communication</span>
+                    <p>At eripuit signiferumque sea, vel add music molestie,<br>cu labitur iuvaret vulputate sed.</p>
+                    <div class="services-link">
+                        <a href="#">Discover</a>
+                    </div>
+                </div>
+                <div class="services-item zoom show-on-scroll">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                    <span>Marketing</span>
+                    <p>At eripuit signiferumque sea, vel add music molestie,<br>cu labitur iuvaret vulputate sed.</p>
+                    <div class="services-link">
+                        <a href="#">Discover</a>
+                    </div>
+                </div>
+                <div class="services-item zoom show-on-scroll">
+                    <div class="services-icon">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <span>Logistic performance</span>
+                    <p>At eripuit signiferumque sea, vel add music molestie,<br>cu labitur iuvaret vulputate sed.</p>
+                    <div class="services-link">
+                        <a href="#">Discover</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content width-height left-to-right show-on-scroll">
+            <div class="content-image">
+                <img src="./images/img_2.jpg" alt="image-2">
+            </div>
+            <div class="content-action">
+                <h1>Ad eos saepe lucilius, noster postulant philosophia ea usu, qui dicta sadipscing te.</h1>
+                <p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
+                <div class="content-input">
+                    <input type="text" placeholder="Placeholder">
+                    <button class="active">Primary action</button>
+                </div>
+                <span>By clicking "Primary action" you accepting ipsum dolor sit amet, sit ea brute mediocritatem, eu sed aliquam scriptserit dissentiunt.</span>
+            </div>
+        </div>
+        <div class="content-2 width-height right-to-left-2 show-on-scroll">
+            <div class="content-action-2">
+                <h1>Fostering creativity and innovationeam definiebas reformidans, exerci persecuti</h1>
+                <div class="content-info-2">
+                    <div class="content-info-item-2">
+                        <i class="fa-solid fa-cube"></i>
+                        <p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.</p>
+                    </div>
+                    <div class="content-info-item-2">
+                        <i class="fa-solid fa-truck"></i>
+                        <p>At nam minimum panderum. Est audiam animal molestiae te. Ex duo eripuit mentium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-image-2 hide-on-mobile">
+                <img src="./images/img_3.jpg" alt="image-3">
+            </div>
+        </div>
+        <div class="slide-show width-height">
+            <div class="slide-show-item zoom show-on-scroll">
+                <div class="slide-show-item-img">
+                    <img src="./images/img_4.jpg" alt="image-4">
+                </div>
+                <span>Ad eos saepe lucilius</span>
+                <p>At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+            </div>
+            <div class="slide-show-item zoom show-on-scroll">
+                <div class="slide-show-item-img ">
+                    <img src="./images/img_5.jpg" alt="image-5">
+                </div>
+                <span>Ad eos saepe lucilius</span>
+                <p>At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+            </div>
+            <div class="slide-show-item zoom show-on-scroll">
+                <div class="slide-show-item-img">
+                    <img src="./images/img_6.jpg" alt="image-6">
+                </div>
+                <span>Ad eos saepe lucilius</span>
+                <p>At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+            </div>
+            <div class="slide-show-item zoom show-on-scroll">
+                <div class="slide-show-item-img">
+                    <img src="./images/img_7.jpg" alt="image-7">
+                </div>
+                <span>Ad eos saepe lucilius</span>
+                <p>At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
