@@ -561,7 +561,6 @@ ul li:focus {
 }
 
 .zoom {
-    /* left: calc(75%/2); */
     left: 37%;
     right: 37%;
     transform: scale(0);
@@ -571,3 +570,6 @@ ul li:focus {
     transition: 0.5s ease-in-out;
     transform: unset;
 }
+
+
+/* Animation end */

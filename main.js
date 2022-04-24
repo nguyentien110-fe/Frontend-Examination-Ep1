@@ -1,6 +1,9 @@
+// Toggle header mobile
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
 }
+
+// Animation
 let viewPort = (element) => {
     let rect = element.getBoundingClientRect()
     let viewHeight = window.innerHeight
@@ -14,6 +17,7 @@ let viewPort = (element) => {
 
 let showOnScroll = document.querySelectorAll('.show-on-scroll')
 
+// Loop
 function loop() {
     showOnScroll.forEach((item) => {
         if (viewPort(item)) {
