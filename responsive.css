@@ -1,7 +1,7 @@
 /* Desktop */
 
 @media (min-width: 1008px) {
-    .hide-on-mobile-tablet {
+    .hide-on-desktop {
         display: none;
     }
 }
